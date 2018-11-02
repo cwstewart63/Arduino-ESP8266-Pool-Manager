@@ -1,0 +1,135 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my pool",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MyPoolInfo",
+                    "slots": [
+                        {
+                            "name": "PoolInfo",
+                            "type": "List_of_PoolInfo"
+                        }
+                    ],
+                    "samples": [
+                        "Check the pool {PoolInfo}",
+                        "Check the {PoolInfo}",
+                        "What's the pool {PoolInfo}",
+                        "What is the pool {PoolInfo}",
+                        "What's the {PoolInfo}",
+                        "What is the {PoolInfo}"
+                    ]
+                },
+                {
+                    "name": "MyPoolDev",
+                    "slots": [
+                        {
+                            "name": "PoolDev",
+                            "type": "List_of_PoolDev"
+                        }
+                    ],
+                    "samples": [
+                        "What's the {PoolDev} state",
+                        "What is the {PoolDev} state",
+                        "Check the {PoolDev} state",
+                        "Check the {PoolDev} status",
+                        "What's the {PoolDev} status",
+                        "What is the {PoolDev} status"
+                    ]
+                },
+                {
+                    "name": "MyPoolMode",
+                    "slots": [
+                        {
+                            "name": "PoolMode",
+                            "type": "List_of_PoolMode"
+                        }
+                    ],
+                    "samples": [
+                        "set the pool mode to {PoolMode}",
+                        "set the mode to {PoolMode}",
+                        "change the pool mode to {PoolMode}",
+                        "change the mode to {PoolMode}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "List_of_PoolInfo",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "status"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mode"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "temperature"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "List_of_PoolDev",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "pump"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "spa"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "List_of_PoolMode",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "off"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "on"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "auto"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
