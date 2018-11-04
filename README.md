@@ -5,6 +5,7 @@ Project Summary:
 This project is to allow remote control of my pool and associated lights with a dedicated display in the house, a phone application and Amazon Alexa. Any and/or all of these input devices may be used to control the pool. The pool temperature and the status of the control devices are monitored as additional information.
 
 Folder Information:
+
 123D Design: Contains Nextion 3.5" Display source file and .stl files of the bezel and base for 3D printing.
 Note: the design uses 3M x 5mm brass inserts. 4 for the bezel, 4 for the base.
 
