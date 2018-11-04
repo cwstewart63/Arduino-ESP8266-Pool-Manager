@@ -27,6 +27,7 @@ PCB Designs: Contains the PCB gerber files and Altium Circuitmaker source files 
 Note: All PCB designs were made using Altium Circuitmaker. I used breadboardkiller to manufacture the boards for me. Wiring schematics are included in case anyone wishes to reproduce their own boards.
 
 Special thanks to those who provided the following libraries:
+
 ModbusRTU: Samuel Marco i Armengol
 https://github.com/smarmengol/Modbus-Master-Slave-for-Arduino
 
