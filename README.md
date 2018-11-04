@@ -34,7 +34,7 @@ https://github.com/smarmengol/Modbus-Master-Slave-for-Arduino
 WiFi Manager: Ken Taylor
 https://github.com/kentaylor/WiFiManager
 
-Alexa Belkin Switch WEMO Emulatgor: Brian Lough
+Alexa Belkin Switch WEMO Emulator: Brian Lough
 https://github.com/witnessmenow/esp8266-alexa-wemo-emulator
 
 MQTT Client: Nick O'Leary
