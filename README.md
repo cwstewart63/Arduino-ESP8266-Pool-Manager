@@ -15,7 +15,7 @@ Note: Need to set up an Amazon AWS account and a developer account. lambda funct
 Arduino: Contains the Modbus Slave and Modbus Master source file and the ESP8266Modbus library.
 Note: All code has been compiled using Arduino IDE Ver 1.8.4. Use the arduino IDE boards manager to install the ESP8266 range of boards.
 This project has specifically used an Aduino nano for the Modbus Slave and an ESP8266 NodeMCU for the Modbus Master.
-All libraries are standard as refernced with the excpetion of the ESP8266Modbus library which is the refernced Arduino Modbus library as referenced modified (ie just commented out specific Arduino references) so that it compiles in the ESP8266 environment.
+All libraries are standard as referenced with the excpetion of the ESP8266Modbus library which is the referenced Arduino Modbus library modified (ie just commented out specific Arduino references) so that it compiles in the ESP8266 environment.
 
 MIT_AI2_PhoneApp: Contains the MIT App Inventor 2 project source and .apk file for android phone.
 Note: Project can be converted to Thinkable if apple app is required. Note Port 81 has been explicitly used for the phone app server.
