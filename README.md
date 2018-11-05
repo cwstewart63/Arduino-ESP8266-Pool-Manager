@@ -18,7 +18,7 @@ This project has specifically used an Aduino nano for the Modbus Slave and an ES
 All libraries are standard as referenced with the excpetion of the ESP8266Modbus library which is the referenced Arduino Modbus library modified (ie just commented out specific Arduino references) so that it compiles in the ESP8266 environment.
 
 MIT_AI2_PhoneApp: Contains the MIT App Inventor 2 project source and .apk file for android phone.
-Note: Project can be converted to Thinkable if apple app is required. Note Port 81 has been explicitly used for the phone app server.
+Note: Project can be converted to Thunkable if apple app is required. Note Port 81 has been explicitly used for the phone app server.
 
 Nextion Display: Contains the nextion editor project source and the loadable .tft file for nextion
 Note: This project uses the Nextion 3.5" enhance display with RTC for time / timer functions.
