@@ -9,7 +9,7 @@ Folder Information:
 123D Design: Contains Nextion 3.5" Display enclosure source file and .stl files of the bezel and base for 3D printing.
 Note: the design uses 3M x 5mm brass inserts. 4 for the bezel, 4 for the base. Enclosure is sized to fit additional Modus Master PCB board which is the same size as the display using 3mm standoffs.
 
-Alexa: Contains the AWS in teraction model and the lambda function (python).
+Alexa: Contains the AWS interaction model and the lambda function (python).
 Note: Need to set up an Amazon AWS account and a developer account. lambda function needs to be updated with your thingspeak channel and key details
 
 Arduino: Contains the Modbus Slave and Modbus Master source file and the ESP8266Modbus library.
