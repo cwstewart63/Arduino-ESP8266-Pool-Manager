@@ -26,7 +26,7 @@ Note: This project uses the Nextion 3.5" enhance display with RTC for time / tim
 PCB Designs: Contains the PCB gerber files and Altium Circuitmaker source files for the Modbus Slave, Modbus Master, Astralpools VX Chlorinator interface board and an optional Valve power supply. The project uses a 24VAC 20VA transformer which will support one valve. If two valves are required then you can use this PCB design with a 24VAC 50VA transformer from the same manufacturer.
 Note: All PCB designs were made using Altium Circuitmaker. I used breadboardkiller to manufacture the boards for me. Wiring schematics are included in case anyone wishes to reproduce their own boards.
 
-Thingspeak: Note this project uses two thingspeak channels as the IOT interface for Amazon Alex functionality, with the MQTT service for the publishing of status information and the subscibe service for the forwarding of Alexa command. The defualt in the code is for Alexa to be disabled. On configuration (ie. using Modbus Master board configuration pin), you enter your SSID, password details, along with the thinspeak channel details and tick the enable Alexa box.
+Thingspeak: Note this project uses two thingspeak channels as the IOT interface for Amazon Alexa functionality, with the MQTT service for the publishing of status information and the subscibe service for the forwarding of Alexa command. The defualt in the code is for Alexa to be disabled. On configuration (ie. using Modbus Master board configuration pin), you enter your SSID, password details, along with the thinspeak channel details and tick the enable Alexa box.
 
 Special thanks to those who provided the following libraries:
 
